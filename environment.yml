@@ -1,9 +1,9 @@
-name: daily_coding_routine-env
+name: learn_langchain-env
 channels:
   - defaults
   - conda-forge
 dependencies:
-  - python=3.8
+  - python=3.9
   - numpy
   - pandas
   - scikit-learn
@@ -12,6 +12,11 @@ dependencies:
   - seaborn
   - ipykernel
   - langchain
+  - langchain-community
+  - langchainhub
   - pip
   - pip:
-    - langchain
+    - neo4j
+    - langchain-neo4j
+    - cohere
+    - langchain-cohere
