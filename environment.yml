@@ -21,3 +21,8 @@ dependencies:
     - langchain-neo4j
     - cohere
     - langchain-cohere
+    - openai
+    - langchain-openai
+    - langchainhub
+    - youtube-search
+    - ollama
